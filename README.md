@@ -1,4 +1,4 @@
-# confidence_intervals
+# Leveraging Confidence Intervals for Effective Stock Management
 This repository demonstrates the application of Inferential Statistics concepts, specifically Confidence Intervals (CIs), using Python and Jupyter Notebook to develop an effective stock management strategy for a shoe manufacturing company.
 
 *************************************************************************************************************************************************************************************************************************************************************************
