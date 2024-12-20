@@ -1,19 +1,30 @@
 # confidence_intervals
-This repo showcases the application of some Inferential Statistics concepts (Confidence Intervals - CIs) using Python and Jupyter over a specific dataset.
+This repository demonstrates the application of Inferential Statistics concepts, specifically Confidence Intervals (CIs), using Python and Jupyter Notebook to develop an effective stock management strategy for a shoe manufacturing company.
 
-The motivation of this repo comes from a Udemy course, "The Data Science Course: Complete Data Science Bootcamp 2024". This course has inspired me twice already (see my projects "jupyter_pdf_simple_analysis" and "cal_houses"). It seems that it is a great source of knowledge, providing excellent ideas for applying this knowledge in real-life situations. The instructor used Excel to showcase the practical application of course section's theory, whereas I used Jupyter Notebook. Therefore, I used the Udemy course as a guide to minimize the risk of mistakes in statistics theory. What is presenting in this repo is my way of transfering this existed idea to a practical project that can be showcased on GitHub.
+*************************************************************************************************************************************************************************************************************************************************************************
+NOTE: I greatly acknowledge the Udemy course 'The Data Science Course: Complete Data Science Bootcamp 2024' (URL: https://www.udemy.com/course/the-data-science-course-complete-data-science-bootcamp/?couponCode=ST21MT121624) for sharing the dataset. If there are any restrictions regarding sharing this dataset through my GitHub, please contact me via Udemy at userID 'Kimon Ioannis Lappas' and I will immediately delete both the original and cleaned datasets.
+*************************************************************************************************************************************************************************************************************************************************************************
 
-The repo includes two files:
-1) The original Excel dataset of Al Bundy's shoe company.
-2) The Jupyter Notebook in which I calculated the CIs.
+The instructor originally used Excel to present a brief version of the confidence intervals' application. In this repository, I have transformed this idea into a complete and practical Python project using Jupyter Notebook.
 
-My puprose was to detaily demonstrate the process needed in order to succesfully calculate the CIs of a dataset. I calculated the CIs for three different future periods of shoes sales (yearly, quarterly and monthly) making the apropriate data manipulations prior to each calculation. The results are compared with each other and visualizations are presented for each period to highlight these differences. The improvement of the results as the sample size increases can be clearly observed throughout the project. This makes the company's decision making safer and determines the future strategies for managing the shoe inventory. 
+## CONCLUSIONS:
+Assuming the role of a manager for this shoe company and using the provided dataset, my primary objective would be to infer monthly sales data. However, focusing solely on monthly data poses the risk of information overload. For example, customers making exceptionally large purchases once or twice a year could cause inventory management challenges during those months. To address this, adopting a quarterly or semi-annual (6-month) analysis would help identify trends in large stock purchases more effectively. Still, assuming limitations exist on excessively large purchases, the monthly sales data remain a reliable basis for inventory management. The upper limits of the monthly sales confidence intervals provide solid production targets, ensuring sufficient stock levels to minimize the risk of losing sales due to stockouts of specific shoe models.
 
-What I gained from this project:
-1) I learnt to distinguish between the Predictive and Inferential Statistics. Although the project is helpful for indentifying future inventory strategies and better controlling the company's production, it does not provide future sale predictions but only statistically significant results helping the company's people drawing important conclusions.
-2) Practised more with Python for Data Science.
-3) Applied CIs in practise. In my experience, the practical application of even the easiest theory is much different than the theory itself.
+## FILES INCLUDED:
+1. The original .xlsx dataset file X 1
+2. The visualization .png files X 3
+3. The main .ipynb file which is the core of the project X 1
+4. The README file
 
-Please feel free to check this project. 
+--> 5 Files in Total <--
 
-Thank you!
+## HOW TO SET UP THE ENVIRONMENT
+1. Download the project as a zip file or clone the repository to your local machine.
+2. Open Anaconda Prompt and type:
+--> conda create --name 'YourEnvName' python=3.11.9 pandas=2.2.1 numpy=1.26.4 matplotlib=3.8.4 seaborn=0.12.2 jupyter=1.0.0 -c conda-forge
+3. Activate the newly-created environment.
+4. Launch Jupyter via Anaconda Prompt.
+5. Open the project's Jupyter named 'main'.
+6. Enjoy!
+
+--> Thanks for your time! Feel free to connect with me on LinkedIn: linkedin.com/in/kimon-ioannis-lappas!!! <--
